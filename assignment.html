@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+    <title>Registration form</title>
+<script src="assignment.js"></script>
+<link rel="stylesheet" href="assignment5.css">
+</head>
+<body>
+<div class="wrapper">
+  <h2>Registration form</h2>
+  <div id="error_message">
+     
+  </div>
+  <form  id="myform" onsubmit = "return validate();">
+    <div class="input_field">
+     <label for="fname">First Name:</label>
+    <input type="text"  id="fname">
+    </div>
+    <div class="input_field">
+        <label for="lname">last Name:</label>
+      <input type="text"  id="lname">
+    </div>
+    <div class="input_field">
+        <label for="Age">Age:  </label>
+        <input type="text"  id="Age">
+    </div>
+    <div class="input_field">
+        <label for="Address">Address:</label>
+        <input type="text"  id="Address">
+    </div>
+    <div class="input_field">
+    <input type="checkbox" id="box">Agree to the terms and conditons
+    </div>
+    <div class="btn">
+        <input type="submit"value="submit">
+        <input type="reset" value="cancel">
+    </div>
+  </form>
+</div>
+</body>
+</html>
